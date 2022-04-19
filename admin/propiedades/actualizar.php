@@ -113,10 +113,9 @@ if(!$id) {
 
             //Definir codigo para insertar en base de datos 
 
-            $query = "UPDATE propiedades SET titulo = '${titulo}', precio = '${precio}', imagen = '${nombreImagen}' descripcion = '${descripcion}', habitacion = ${habitaciones}, wc = ${wc}, estacionamiento = ${estacionamiento}, vendedorId = ${vendedorId} WHERE id = ${id} ";
+            $query = "UPDATE propiedades SET titulo = '${titulo}', precio = '${precio}', imagen = '${nombreImagen}' ,   descripcion = '${descripcion}', habitacion = ${habitaciones}, wc = ${wc}, estacionamiento = ${estacionamiento}, vendedorId = ${vendedorId} WHERE id = ${id} ";
 
             //Insertar a la base de datos 
-
             $resultado = mysqli_query($db, $query);
 
             if($resultado) {

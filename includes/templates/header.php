@@ -32,7 +32,7 @@
             </div> <!--.barra-->
             <?php 
                 if($inicio){
-                    echo "<h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>"
+                    echo "<h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>";
                 }
             ?>
         </div>
